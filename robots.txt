@@ -1,0 +1,24 @@
+User-agent: Googlebot
+Disallow: 
+User-agent: googlebot-image
+Disallow: 
+User-agent: googlebot-mobile
+Disallow: 
+User-agent: MSNBot
+Disallow: 
+User-agent: Slurp
+Disallow: 
+User-agent: Robozilla
+Disallow: /
+User-agent: Nutch
+Disallow: /
+User-agent: ia_archiver
+Disallow: /
+User-agent: baiduspider
+Disallow: 
+User-agent: psbot
+Disallow: 
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
+Sitemap: https://varunrajarisetty.tk/sitemap.xml

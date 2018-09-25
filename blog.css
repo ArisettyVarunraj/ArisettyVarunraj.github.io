@@ -1,0 +1,54 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #777;
+    
+}
+
+/* Create a Parallax Effect */
+.bgimg-1{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('images/parallax_blog.jpg');
+    height: 100%;
+}
+
+
+
+
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1 {
+        background-attachment: scroll;
+    }
+}
+.center{
+    text-align: center;
+}
+.blog_h{
+    
+    font-style: italic;
+   
+}
+#title{
+    font-style: italic;
+    font-size: 50px;
+    
+    text-shadow:0.5px 0.5px #47494f;
+}
+#logo{
+    white-space: nowrap;
+}
+
+#logo img{
+    vertical-align: middle;
+    margin-bottom:25px;
+
+}
