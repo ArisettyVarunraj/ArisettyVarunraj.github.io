@@ -17,10 +17,14 @@
      
      
      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-     <!-- MAIN CSS -->
-     <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <!-- MAIN CSS   -->
+     <link rel="stylesheet" href="css/connect.css">
      <link rel="stylesheet" type="text/css" href="blog.css">
+     <!--popover-->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </head>
 <body>
@@ -67,24 +71,28 @@
 
 
      <!-- HOME -->
-    <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
-  
-</div>
+    
 
 <!-- Container (About Section) -->
-<div class="w3-content w3-container w3-padding-64" id="about">
-  <h3 class="center">Hello !!!</h3>
-  <p class="center"><em>Welcome to Blog of Innovations</em></p>
- 
-  <h3 id="logo"><img src="images/icon1.png" height="100px" width="120px"> <span id="title">GetBytes</span> &nbsp; for Chrome</h3>
-  <h3 class="blog_h">Well, are you user of GetBytes...? Cool you are at the right place!!!</h3>
+<div class="" id="about">
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <p>GetBytes is an easy way to get the text of your desire on any site.</p>
-  <p></p>
-  <a href="Cloud_companies.html">The Best Cloud Companies that you should take a look</a>
-  
+  <h3 id="popover_h3">The list of Cloud based well established and esteemed organisations  </h3>
+  <ol>
+    <li><a href="https://aws.amazon.com/" target="_blank">Amazon Web Services</a></li>
+    <p>
+      
+    </p>
+    <li><a href="https://azure.microsoft.com/en-in/" target="_blank">Microsoft Azure</a></li>
+    <li><a href="https://www.ibm.com/cloud/"> IBM Cloud</a></li>
+    <li><a href="https://cloud.google.com/">Google Cloud Platform</a></li>
+    <li><a href="https://www.adobe.com/in/creativecloud.html?gclid=Cj0KCQjw3KzdBRDWARIsAIJ8TMTaHsC4LkbxCLnwmHzOl5CwZir7xIdSOwCGMVvU9v2k21nVooQ9n74aAgWjEALw_wcB&sdid=SL4KMHQ2&mv=search&s_kwcid=AL!3085!3!155864519747!e!!g!!adobe%20cloud&ef_id=Wks4PAAAAW4P_TzJ:20180926165904:s">Adobe</a></li>
+    <li><a href="https://www.redhat.com/en/topics/cloud">Red Hat</a></li>
+    <li><a href="https://www.salesforce.com/in/cloudcomputing/"> Sales Force</a></li>
+    <li><a href="https://www.vmware.com/in/cloud-services/infrastructure.html">VMware</a></li>
+    <li><a href="https://www.oracle.com/cloud/"> Oracle Cloud</a></li>
+    <li><a href="https://www.sap.com/trends/cloud.html">SAP</a></li>
+  </ol>
 </div>
-
 
 
 <footer id="footer" data-stellar-background-ratio="0.5">
@@ -98,7 +106,7 @@
                               <ul>
                                    <li><a href="index.html">Home</a></li>
                                    <li><a href="#">About</a></li>
-                                   <li><a href="#">Contact</a></li>
+                                   <li><a href="connect.html">Connect</a></li>
                                    <li><a href="blog.html">Blog</a></li>
                               </ul>
                          </div>
@@ -156,11 +164,25 @@
           </div>
 </footer>
 
+
      <!-- SCRIPTS -->
      <script src="js/jquery.js"></script>
      <script src="js/bootstrap.min.js"></script>
      <script src="js/carousel.min.js"></script>
-     <script src="js/custom.js"></script>
-
+     <script src="js/custom.js"></script> 
+     <script>
+     $(function(){
+     $('[rel="popover"]').popover({
+        container: 'body',
+        html: true,
+        content: function () {
+            var clone = $($(this).data('popover-content')).clone(true).removeClass('hide');
+            return clone;
+        }
+     }).click(function(e) {
+        e.preventDefault();
+     });
+     });
+     </script>
 </body>
 </html>
