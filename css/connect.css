@@ -725,7 +725,7 @@
 #repo_list li{
   color: #af8bf4;
   padding: 10px;
-  list-style-image: url('../images/git-icon-black.png');
+  list-style-image: url('../images/technical_skills.png');
 
 }
 #repo_list li:hover{
