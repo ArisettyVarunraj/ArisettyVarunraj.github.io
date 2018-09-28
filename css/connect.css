@@ -8,7 +8,10 @@
     overflow-x: hidden;
   }
 
-
+::selection {
+    color: white;
+    background: #3f3717;
+}
 
   /*---------------------------------------
      TYPOGRAPHY              
@@ -333,92 +336,8 @@
   }
 
   @media (min-width: 768px) {
-    .slider .col-md-8 {
-      padding-left: 0;
+    
     }
-  }
-
-  .slider .owl-dots {
-    position: absolute;
-    top: 50%;
-    right: 2em;
-    justify-content: center;
-  }
-
-  .owl-theme .owl-dots .owl-dot {
-    display: block;
-  }
-
-  .owl-theme .owl-dots .owl-dot span {
-    width: 12px;
-    height: 12px;
-    margin: 7px 10px;
-    border: 2px solid #d9d9d9;
-    background: transparent;
-    display: block;
-    -webkit-backface-visibility: visible;
-    transition: opacity 200ms ease;
-    border-radius: 30px;
-  }
-
-  .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-    background-color: #ffffff;
-    border-color: transparent;
-  }
-
-  .slider .caption {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: left;
-    background-color: rgba(20,20,20,0.2);
-    height: 100%;
-    color: #fff;
-    cursor: e-resize;
-    padding: 4em 0 0 2em;
-  }
-
-  .slider .item {
-    background-position: inherit;
-    background-repeat: no-repeat;
-    background-attachment: local;
-    background-size: cover;
-    height: 650px;
-  }
-
-  .slider .item-first {
-    background-image: url(../images/parallax1.jpg);
-  }
-
-  .slider .item-second {
-    background-image: url(../images/parallax2.jpg);
-  }
-
-  .slider .item-third {
-    background-image: url(../images/parallax3.jpg);
-  }
-
-  .slider .item-second .section-btn {
-    background: #292929;
-  }
-
-  .slider .item-second .section-btn:hover {
-    background: #ffffff;
-  }
-
-  .slider .item-third .section-btn {
-    background: transparent;
-    border: 1px solid #ffffff;
-  }
-
-  .slider .item-third .section-btn:hover,
-  .slider .item-third .section-btn:focus {
-    background: #ce3232;
-    border-color: transparent;
-    color: #ffffff;
-  }
-
-
 
   /*---------------------------------------
       ABOUT              
@@ -581,6 +500,9 @@
     .custom-navbar .navbar-brand img{
     height: 150%;
   }
+  #page_body{
+  margin: 500px;
+}
   }
 
 
@@ -589,6 +511,9 @@
    .custom-navbar .navbar-brand img{
     height: 150%;
   }
+  #page_body{
+  margin: 500px;
+}
   }
 
 
@@ -612,7 +537,9 @@
     .footer-info {
       margin-bottom: 50px;
     }
-    
+    #page_body{
+  margin: 500px;
+}
   }
 
 
@@ -624,6 +551,9 @@
     .custom-navbar .navbar-brand img{
     height: 200%;
   }
+#page_body{
+  margin: 50px;
+}
   }
 
   @media only screen and (max-width: 767px) {
@@ -695,6 +625,9 @@
       bottom: 0;
       margin-top: 30px;
     }
+    #page_body{
+      margin:0px;
+    }
   }
 
 
@@ -725,7 +658,7 @@
 #repo_list li{
   color: #af8bf4;
   padding: 10px;
-  list-style-image: url('../images/technical_skills.png');
+  list-style-image: url('../images/git-icon-black.png');
 
 }
 #repo_list li:hover{
@@ -763,4 +696,18 @@
   color: #af8bf4;
   padding: 10px;
   list-style-image: url('../images/technical_skills.png');
+}
+#page_li a:hover{
+ color: #0c1b28;
+  background-color:#e8dfd3 ;
+}
+#page_li{
+font-size:30px;
+}
+#page_li a{
+  color:#84722b;
+}
+#page_p{
+  font-size: 20px;
+  padding: 25px;
 }

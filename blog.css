@@ -4,7 +4,10 @@ body, html {
     color: #777;
     
 }
-
+::selection {
+    color: white;
+    background: #3f3717;
+}
 /* Create a Parallax Effect */
 .bgimg-1{
     background-attachment: fixed;
@@ -33,9 +36,10 @@ body, html {
     text-align: center;
 }
 .blog_h{
-    
-    font-style: italic;
-   
+    color:#84722b;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 30px;
 }
 #title{
     font-style: italic;
@@ -51,4 +55,21 @@ body, html {
     vertical-align: middle;
     margin-bottom:25px;
 
+}
+#blog_p{
+    margin: 10px;
+    font-size: 17px;
+    
+}
+
+#cloud_h a:hover{
+ color: #0c1b28;
+  background-color:#e8dfd3 ;
+}
+#cloud_h{
+font-size:30px;
+margin: 50px;
+}
+#cloud_h a{
+  color:#84722b;
 }
