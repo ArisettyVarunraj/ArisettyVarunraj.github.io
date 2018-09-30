@@ -1,0 +1,103 @@
+body,h1,h2,h3,h4,h5,h6 
+body, html {
+    height: 100%;
+    color: #777;
+    
+}
+::selection {
+    color: white;
+    background: #3f3717;
+}
+/* Create a Parallax Effect */
+.bgimg-1{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('../images/parallax_blog.jpg');
+    height: 100%;
+}
+
+
+
+
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px)
+{
+    .bgimg-1 
+    {
+        background-attachment: scroll;
+    }
+}
+.center
+{
+    text-align: center;
+}
+.blog_h
+{
+    color:#84722b;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 30px;
+}
+#title
+{
+    font-style: italic;
+    font-size: 50px;
+    
+    text-shadow:0.5px 0.5px #47494f;
+}
+
+ @media only screen and (max-width:1500px) and (min-width:1110px)  {
+    
+   #logo{
+    white-space: nowrap;
+    margin: 0 300px 0 400px;
+    
+
+}
+
+ @media only screen and (min-width:1500px) {
+    #logo{
+        margin:0 auto;
+    }
+ }
+}
+
+
+#logo img{
+    vertical-align: middle;
+    margin-bottom:25px;
+     height:100px;
+    width:120px;
+
+}
+#blog_p{
+    margin: 10px;
+    font-size: 17px;
+    
+}
+
+#cloud_h a:hover{
+ color: #0c1b28;
+  background-color:#e8dfd3 ;
+}
+#cloud_h{
+font-size:30px;
+margin: 50px;
+}
+#cloud_h a{
+  color:#84722b;
+}
+@media only screen and (max-width:700px)
+{
+    #cloud_h
+    {
+      font-size: 20px;
+    }    
+}

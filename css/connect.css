@@ -193,7 +193,11 @@
     border: none;
     margin-bottom: 0;
     padding: 25px 0;
-    z-index: 700;
+    -webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+      -moz-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+      padding: 12px 0;
+    z-index: 700000;
   }
   
 
@@ -201,6 +205,9 @@
     color: #ffffff;
     font-size: 18px;
     font-weight: bold;
+  }
+  .navbar-brand img{
+    height: 200%;
   }
 
   .custom-navbar .navbar-brand span {
@@ -710,4 +717,34 @@ font-size:30px;
 #page_p{
   font-size: 20px;
   padding: 25px;
+}
+
+
+.moreinfo {
+    display:none
+}
+.button
+{
+  background-color: #45465e;
+  padding: 10px;
+  color: #ffffff;
+  font-weight: 550;
+}
+@media only screen and (max-width:1500px) and (min-width:1110px)
+{
+  .moreinfo
+  {
+    padding: 100px;
+  }
+  .stiatica
+  {
+    padding: 100px;
+  }
+}
+@media only screen and (max-width: 767px)
+{
+  .stiatica
+  {
+    padding: 50px 50px 0 0;
+  }
 }
