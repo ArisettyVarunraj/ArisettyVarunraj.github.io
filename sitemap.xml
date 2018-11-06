@@ -4,25 +4,32 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
 
 <url>
   <loc>https://varunrajarisetty.tk/</loc>
-  <lastmod>2018-09-27T21:53:12+00:00</lastmod>
+  <lastmod>2018-11-06T12:36:58+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://varunrajarisetty.tk/connect.html</loc>
-  <lastmod>2018-09-27T21:53:12+00:00</lastmod>
+  <lastmod>2018-11-06T12:36:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://varunrajarisetty.tk/blog.html</loc>
-  <lastmod>2018-09-27T21:53:12+00:00</lastmod>
+  <lastmod>2018-11-06T12:36:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://varunrajarisetty.tk/varunrajarisetty_bio.html</loc>
+  <lastmod>2018-11-06T12:36:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://varunrajarisetty.tk/Cloud_companies.html</loc>
-  <lastmod>2018-09-27T21:53:12+00:00</lastmod>
+  <lastmod>2018-11-06T12:36:57+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
