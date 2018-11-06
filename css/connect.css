@@ -507,9 +507,7 @@
     .custom-navbar .navbar-brand img{
     height: 150%;
   }
-  #page_body{
-  margin: 500px;
-}
+  
   }
 
 
@@ -518,8 +516,7 @@
    .custom-navbar .navbar-brand img{
     height: 150%;
   }
-  #page_body{
-  margin: 500px;
+  
 }
   }
 
@@ -685,11 +682,6 @@
     cursor: pointer;
     border-radius: 8px;
 }
-#popover_h3{
-  color:#84722b;
-  font-size: 20px;
-  display: inline-block;
-}
 #linkedin_connect{
   color: #ffffff;
   background-color: #0073b1;
@@ -704,20 +696,7 @@
   padding: 10px;
   list-style-image: url('../images/technical_skills.png');
 }
-#page_li a:hover{
- color: #0c1b28;
-  background-color:#e8dfd3 ;
-}
-#page_li{
-font-size:30px;
-}
-#page_li a{
-  color:#84722b;
-}
-#page_p{
-  font-size: 20px;
-  padding: 25px;
-}
+
 
 
 .moreinfo {

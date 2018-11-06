@@ -1,6 +1,6 @@
 body,h1,h2,h3,h4,h5,h6 
 body, html {
-    height: 100%;
+   height: 100%;
     color: #777;
     
 }
@@ -18,7 +18,7 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-    background-image: url('../images/parallax_blog.jpg');
+    background-image: url('../images/parallax_blog.jpg'); 
     height: 100%;
 }
 
@@ -98,22 +98,6 @@ margin: 50px;
 }
 #cloud_h a{
   color:#84722b;
-}
-@media only screen and (max-width:700px)
-{
-    #cloud_h
-    {
-      font-size: 20px;
-    }
-    .bgimg-1
-    {
-        width: auto;
-        height: auto;
-    }    
-    .profile-img
-    {
-        padding: 50px;
-    }
 }
 .emp-profile{
     padding: 3%;
@@ -197,3 +181,85 @@ margin: 50px;
     font-weight: 600;
     color: #0062cc;
 }
+
+#popover_h3{
+  color:#84722b;
+  font-size: 40px;
+  font-weight: bold;
+  display: inline-block;
+}
+#page_sub_li {
+     font-size: 20px;
+     line-height: 35px;
+}
+#page_li a:hover{
+ color: #0c1b28;
+  background-color:#e8dfd3 ;
+}
+#page_li{
+font-size:30px;
+}
+#page_li a{
+  color:#84722b;
+}
+#page_p{
+  font-size: 25px;
+  padding: 25px;
+  line-height: 35px;
+}
+@media only screen and (max-width:700px)
+{
+    #cloud_h
+    {
+      font-size: 20px;
+    }
+    .bgimg-1
+    {
+        background-size: 130%;
+    }    
+    .profile-img
+    {
+        padding: 50px;
+    }
+    #page_li,#page_p,#popover_h3, #page_li a,#page_sub_li{
+        font-size: 125%; 
+        padding: 5px;
+    }
+
+}
+  @media screen and (max-width: 1170px) {
+   #page_li,#page_p,#popover_h3, #page_li a,#page_sub_li{
+             
+
+    }
+
+  }
+
+
+  @media only screen and (max-width: 1200px) {
+  }
+
+  @media only screen and (max-width: 992px) {
+
+  }
+
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+
+  }
+
+  @media only screen and (max-width: 767px) {
+
+  }
+
+  @media only screen and (max-width: 580px) {
+    #page_li,#page_p,#popover_h3, #page_li a,#page_sub_li{
+            font-size: 105%; 
+            padding: 1px;
+    }
+     .bgimg-1
+    {
+        background-size: 150%;
+    }   
+  }
+
