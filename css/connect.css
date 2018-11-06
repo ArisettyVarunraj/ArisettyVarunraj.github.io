@@ -197,7 +197,7 @@
       -moz-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
       box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
       padding: 12px 0;
-    z-index: 700000;
+    z-index: 70000;
   }
   
 
@@ -747,4 +747,28 @@ font-size:30px;
   {
     padding: 50px 50px 0 0;
   }
+}
+#bio 
+{
+  background-color: #e3e7ed;
+  height: all;
+  width: 55%;
+}
+#bio ul
+{
+  padding: 50px;
+  font-weight: 800;
+}
+#bio li
+{
+  padding: 10px;
+  list-style: none;
+  text-align: center;
+}
+#bio img
+{
+  height: 60%;
+  width: 80%;
+  padding: 20px;
+  border: ;
 }

@@ -162,6 +162,7 @@
   .spinner:before {
     content: '';
     box-sizing: border-box;
+    
     position: absolute;
     top: 50%;
     left: 50%;
@@ -732,3 +733,41 @@
     }
   }
 
+#bio
+{
+  background-color: #af3b6a;
+  color: #ffffff;
+  height: 35px;
+  width: 120px;
+  border-radius: 25px;
+  font-weight: 50px;
+  font-style: italic;
+  padding: 5px 5px 5px 5px;
+  border:none;
+  transition: all 0.5s;
+}
+
+#bio span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#bio span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#bio:hover span {
+  padding-right: 25px;
+}
+
+#bio:hover span:after {
+  opacity: 1;
+  right: 0;
+}
